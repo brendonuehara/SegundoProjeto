@@ -100,7 +100,9 @@
 }
 
 .area-navigation  h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 
+  sans-serif;
+  letter-spacing: 1px;
   text-align: center;
   font-weight: 900;
   font-size: 2.3rem;
@@ -204,10 +206,11 @@
 }
 
 .introduction-wrapper-description > p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 100;
   margin-bottom: 7rem;
   color: white;
+  letter-spacing: 1px;;
 }
 
 .introduction-wrapper-other {
@@ -233,6 +236,54 @@
   font-size: 1rem;
   color: white;
   opacity: .9;
+  letter-spacing: .5px;
 }
+/*  */
+
+/* area using */
+
+.area-wrapper-using {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.using-elements { 
+  display: flex;
+  margin: 0 20px;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.area-wrapper-using  > h3 {
+  margin: 3.5rem 0;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  opacity: .6;
+}
+
+.using-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.using-elements .using-item > img {
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+.using-elements .using-item > span {
+  font-size: 1.1rem;
+}
+
+.using-elements .using-item span b {
+  font-size: 1.2rem;
+}
+
+
+
 
 /*  */
