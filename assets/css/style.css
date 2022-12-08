@@ -314,7 +314,7 @@
 
 .area-wrapper-products > h1 {
   position: absolute;
-  top: 10px;
+  top: 18px;
   color: white;
   text-align: center;
   font-size: 2.5rem;
@@ -338,9 +338,9 @@
 .products-item {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   margin-right: 4rem;
   margin-left: 3rem;
 }
