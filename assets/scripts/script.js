@@ -1,7 +1,6 @@
 // Opacity icon whatsapp
 let iconClose = document.getElementById("icon-whatsapp-close");
 let spanWhatsapp = document.getElementById("span-whatsapp");
-let emoteWhatsapp = document.getElementById("emote-whatsapp");
 
 spanWhatsapp.addEventListener("mouseover", () => {
   iconClose.style.opacity = 0.4;
@@ -26,7 +25,6 @@ function closeSpan() {
   setTimeout(() => {
     spanWhatsapp.style.display = "none";
     iconClose.style.display = "none";
-    emoteWhatsapp.style.display = "none";
   }, 300)
 }
 
