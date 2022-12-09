@@ -330,6 +330,7 @@
   height: 440px;
   margin-top: 6rem;
   transition: all .5s;
+  box-shadow: rgb(0 0 0 / 10%) 0px 5px 5px -3px, rgb(0 0 0 / 6%) 0px 3px 14px 2px, rgb(0 0 0 / 5%) 0px 8px 10px 1px, rgb(0 0 0 / 24%) 0px 0px 2px 0px;
 }
 
 .products-item > img:hover {
