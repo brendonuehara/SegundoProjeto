@@ -56,7 +56,7 @@
   color: white;
   top: -2px;
   left: -8px;
-  z-index: 2;
+  z-index: 3;
   border-radius: 100px;
   background: black;
   opacity: 0;
@@ -108,8 +108,8 @@
 }
 
 .area-navigation  h1 {
-  font-family: 'Inter', 
-  sans-serif;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.09em;
   text-align: center;
   font-weight: 900;
   font-size: 2.5rem;
@@ -154,11 +154,12 @@
   color: white;
   border: none;
   font-size: 14px;
+  letter-spacing: 1px;
   font-weight: 700;
   background: rgba(30, 30, 255, 0.911);
   border-radius: 5px;
   font-family: 'Inter', sans-serif;
-  padding: .4rem;  
+  padding: .6rem;  
   transition: background .3s;
 }
 
@@ -209,15 +210,17 @@
   font-size: 3.4rem;
   font-family: 'Inter', sans-serif;
   font-weight: 900;
+  letter-spacing: 3px;
   margin-bottom: 2rem;
 }
 
 .introduction-wrapper-description > p {
   font-size: 1.1rem;
-  font-weight: 100;
+  line-height: 2;
+  font-weight: 200;
   margin-bottom: 7rem;
   color: white;
-  letter-spacing: 1px;;
+  letter-spacing: 2px;
 }
 
 .introduction-wrapper-other {
@@ -378,6 +381,68 @@
   font-weight: 100;
 }
 
+/*  */
 
+/* area footer*/
+
+.area-footer {
+  background: #222222;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 6rem;
+  align-items: center;
+  position: relative;
+}
+
+#instagram {
+  height: 48px;
+}
+
+#linkedin {
+  height: 38px;
+}
+
+.footer-redes img:hover {
+  cursor: pointer;
+  transform: rotate(15deg);
+}
+
+.footer-direitos{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.footer-direitos h2 span {
+  font-size: 1.5rem;
+}
+
+.footer-direitos h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.footer-links ul li a {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 2;
+}
+
+.footer-links ul li a:hover {
+  cursor: pointer;
+  color: rgba(17, 0, 255, 0.507);
+}
 
 /*  */
